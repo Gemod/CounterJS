@@ -53,22 +53,9 @@ class GestioneInterfacciaCalcolatrice {
     }
 
     updateDisplayReset() {
-        this.value.innerHTML = calcolatrice.reset();
-        calcolatrice.resetView();
+        this.value.innerHTML = this.calcolatrice.reset();
+        this.resetView();
     }
-    
-    increase() {
-        return this.calcolatrice.increase();
-    }
-
-    decrease() {
-        return this.calcolatrice.decrease();
-    }
-
-    reset() {
-        return this.calcolatrice.reset();
-    }
-    
 }
 
 const value = document.querySelector("#value");
