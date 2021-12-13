@@ -12,7 +12,7 @@ class Calcolatrice {
     reset() {
         return this.counter = 0;
     }
-    get() {
+    getCounter() {
         return this.counter;
     }
 }
@@ -33,22 +33,22 @@ class GestioneInterfacciaCalcolatrice {
         this.container.style.boxShadow = `2px 5px 5px 5px ${color}`;
     }
     updateDisplayIncrease() {
-        this.value.innerHTML = calcolatrice.increase();
-        if (calcolatrice.get() > 0) {
-            calcolatrice.changeColorView("green")
+        this.value.innerHTML = this.calcolatrice.increase();
+        if (this.calcolatrice.getCounter() > 0) {
+            this.changeColorView("green")
         }
-        if (calcolatrice.get() === 0) {
-            calcolatrice.resetView();
+        if (this.calcolatrice.getCounter() === 0) {
+            this.resetView();
         }
     }
 
     updateDisplayDecrease() {
-        this.value.innerHTML = calcolatrice.decrease();
-        if (calcolatrice.get() < 0) {
-            calcolatrice.changeColorView("red");
+        this.value.innerHTML = this.calcolatrice.decrease();
+        if (this.calcolatrice.getCounter() < 0) {
+            this.changeColorView("red");
         }
-        if (calcolatrice.get() === 0) {
-            calcolatrice.resetView();
+        if (this.calcolatrice.getCounter() === 0) {
+            this.resetView();
         }
     }
 
