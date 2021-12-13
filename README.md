@@ -1,4 +1,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/Gemod/CounterJS)
+![GitHub issues](https://img.shields.io/github/issues/Gemod/CounterJS)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
+![HitCount](https://views.whatilearened.today/views/github/Gemod/CounterJS.svg)
 
 # Counter
 
