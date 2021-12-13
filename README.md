@@ -1,4 +1,4 @@
-[![GitHub contributors](https://img.shields.io/github/contributors/Gemod/CounterJS)]
+![GitHub contributors](https://img.shields.io/github/contributors/Gemod/CounterJS)
 
 # Counter
 
