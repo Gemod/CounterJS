@@ -8,12 +8,12 @@
 [![NPM Version][npm-image]][npm-url]
 [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/sass)](https://cran.r-project.org/package=sass)
 
-CounterJS is a simple counter developed in javascript. The idea of this project is to put javascript into practice but mostly to improve my skills.
+CounterJS is a simple counter developed in javascript, with responsive UI. The idea about this project is to do practice with Javascript but mostly to improve my skills.
 
 ![](./Counter/img/screen_app.png)
 
 ### Build with
-This project was built with 2 mainly technology
+This project was built with 2 mainly technologies
 - Javascript
 - Sass
 
