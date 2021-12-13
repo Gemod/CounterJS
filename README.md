@@ -10,14 +10,28 @@
 
 CounterJS is a simple counter developed in javascript. The idea of this project is to put javascript into practice but mostly to improve my skills.
 
-## Installation
+![](./Counter/img/screen_app.png)
 
+### Build with
+This project was built with 2 mainly technology
+- Javascript
+- Sass
 
-In the project I used Sass. If you don't want to use it, just delete the scss folder, and apply the style changes in the styles.css file. Otherwise follow command below to install sass
+## Getting Started
+
+### Prerequisites
+If you don't want to use it, just delete the scss folder, and apply the style changes in the styles.css file. Otherwise follow command below to install sass
 
 ```bash
 npm install -g sass
 ```
+
+### Installation
+it's enough to clone this repo
+```bash
+git clone https://github.com/Gemod/CounterJS.git
+```
+and open in a browser index.html file.
 
 ## Usage
 To use Sass, run follow command in root project, to make sure, sass generate or update styles.css file:
@@ -25,6 +39,10 @@ To use Sass, run follow command in root project, to make sure, sass generate or 
 ```bash
 sass --watch scss/styles.scss css/styles.css
 ```
+
+## Contact
+Gemod -  [@Twitter](https://twitter.com/gemod994)
+
 <!--MARKDOWN LINKS AND IMAGES-->
 [contributors-shield]: https://img.shields.io/github/contributors/Gemod/CounterJS.svg?style=for-the-badge
 [contributors-url]: https://github.com/Gemod/CounterJS/graphs/contributors
