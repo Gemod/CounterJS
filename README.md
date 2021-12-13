@@ -10,7 +10,7 @@
 
 CounterJS is a simple counter developed in javascript, with responsive UI. The idea about this project is to do practice with Javascript but mostly to improve my skills.
 
-![](./Counter/img/screen_app.png)
+![](./img/screen_app.png)
 
 ### Build with
 This project was built with 2 mainly technologies

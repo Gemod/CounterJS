@@ -15,11 +15,6 @@ class Calcolatrice {
     get() {
         return this.counter;
     }
-
-    set(counter) {
-
-    }
-
 }
 
 class GestioneInterfacciaCalcolatrice {
@@ -37,26 +32,6 @@ class GestioneInterfacciaCalcolatrice {
         value.style.color = color;
         this.container.style.boxShadow = `2px 5px 5px 5px ${color}`;
     }
-
-    get() {
-        return this.calcolatrice.get();
-    }
-
-    increase() {
-        return this.calcolatrice.increase();
-    }
-
-    decrease() {
-        return this.calcolatrice.decrease();
-    }
-
-    reset() {
-        return this.calcolatrice.reset();
-    }
-    set(counter) {
-
-    }
-
     updateDisplayIncrease() {
         this.value.innerHTML = calcolatrice.increase();
         if (calcolatrice.get() > 0) {
@@ -81,6 +56,19 @@ class GestioneInterfacciaCalcolatrice {
         this.value.innerHTML = calcolatrice.reset();
         calcolatrice.resetView();
     }
+    
+    increase() {
+        return this.calcolatrice.increase();
+    }
+
+    decrease() {
+        return this.calcolatrice.decrease();
+    }
+
+    reset() {
+        return this.calcolatrice.reset();
+    }
+    
 }
 
 const value = document.querySelector("#value");
