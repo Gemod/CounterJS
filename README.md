@@ -1,6 +1,8 @@
+[![GitHub contributors](https://img.shields.io/github/contributors/Gemod/CounterJS)]
+
 # Counter
 
-CounterJS is a simple counter developed in javascript. The idea of ​​this project is to put javascript into practice but mostly to improve my skills.
+CounterJS is a simple counter developed in javascript. The idea of this project is to put javascript into practice but mostly to improve my skills.
 
 ## Installation
 
