@@ -14,7 +14,7 @@ main {
   border-radius: 10%;
   padding: 10%;
   box-shadow: 2px 5px 5px 5px #808080;
-  border: 2px solid black;
+  border: 2px solid #222;
   text-align: center;
 }
 
@@ -36,8 +36,8 @@ h1 {
   margin: 5px;
   padding: 15px;
   border-radius: 5px;
-  border: 2px solid black;
-  background-color: white;
+  border: 2px solid #222;
+  background-color: #fff;
 }
 
 .btn:hover {
