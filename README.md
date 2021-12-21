@@ -34,7 +34,7 @@ git clone https://github.com/Gemod/CounterJS.git
 and open in a browser index.html file.
 
 ## Usage
-To use Sass, run follow command in root project, to make sure, sass generate or update styles.css file:
+To use Sass to modify style, run follow command in root project, to make sure, sass generate or update styles.css file:
 
 ```bash
 sass --watch scss/styles.scss css/styles.css
