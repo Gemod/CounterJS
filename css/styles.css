@@ -3,22 +3,16 @@
   padding: 0;
 }
 
-main {
-  margin-top: 10%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.container {
-  border-radius: 10%;
-  padding: 10%;
+.mycontainer {
+  border-radius: 20%;
+  padding: 5%;
   box-shadow: 2px 5px 5px 5px #808080;
   border: 2px solid #222;
   text-align: center;
 }
 
 h1 {
+  font-size: 6rem;
   text-transform: uppercase;
 }
 
@@ -33,53 +27,10 @@ h1 {
 }
 
 .btn {
-  margin: 5px;
   padding: 15px;
   border-radius: 5px;
   border: 2px solid #222;
   background-color: #fff;
-}
-
-.btn:hover {
-  color: #fff;
-  background-color: #222;
-}
-
-@media only screen and (max-width: 300px) {
-  #value {
-    font-size: 2rem;
-  }
-
-  h1 {
-    font-size: 2rem;
-  }
-
-  .btn {
-    padding: 10px;
-    margin: 2px;
-  }
-
-  .container {
-    padding: 2%;
-  }
-}
-@media only screen and (max-height: 390px) {
-  #value {
-    font-size: 2rem;
-  }
-
-  h1 {
-    font-size: 2rem;
-  }
-
-  .btn {
-    padding: 10px;
-    margin: 2px;
-  }
-
-  .container {
-    padding: 2%;
-  }
 }
 
 /*# sourceMappingURL=styles.css.map */

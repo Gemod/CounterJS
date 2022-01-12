@@ -16,6 +16,7 @@ CounterJS is a simple counter developed in javascript, with responsive UI. The i
 This project was built with 2 mainly technologies
 - Javascript
 - Sass
+- Bootstrap
 
 ## Getting Started
 

@@ -60,7 +60,7 @@ class GestioneInterfacciaCalcolatrice {
 
 const value = document.querySelector("#value");
 const btns = document.querySelectorAll(".btn");
-const container = document.querySelector(".container");
+const container = document.querySelector(".mycontainer");
 
 
 const calcolatrice = new GestioneInterfacciaCalcolatrice(value, container);
@@ -77,3 +77,13 @@ btns.forEach(btn => {
         }
     })
 })
+
+
+
+/*window.onload = function () {
+    window.addEventListener('beforeunload', function (e) {
+        e.preventDefault();
+        e.returnValue = '';
+    });
+}*/
+
